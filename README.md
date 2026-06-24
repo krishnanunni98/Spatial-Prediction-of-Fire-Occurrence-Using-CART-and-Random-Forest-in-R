@@ -1,0 +1,2 @@
+# Spatial-Prediction-of-Fire-Occurrence-Using-CART-and-Random-Forest-in-R
+This project applies machine learning methods to predict fire occurrence using georeferenced presence/absence data and raster-based environmental predictors. Classification and Regression Trees (CART) and Random Forest (RF) models were developed, validated using independent datasets, and used to generate spatial prediction maps.

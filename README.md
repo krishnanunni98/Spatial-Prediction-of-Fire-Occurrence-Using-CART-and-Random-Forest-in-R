@@ -1,9 +1,9 @@
 # Spatial-Prediction-of-Fire-Occurrence-Using-CART-and-Random-Forest-in-R
-Project Overview
+## Project Overview
 This project applies machine learning methods to predict fire occurrence using georeferenced presence/absence data and raster-based environmental predictors. Classification and Regression Trees (CART) and Random Forest (RF) models were developed, validated using independent datasets, and used to generate spatial prediction maps.
 The workflow demonstrates how tree-based machine learning algorithms can be applied to environmental risk modelling and spatial prediction.
 
-Objectives
+## Objectives
 •	Develop a CART model for fire occurrence prediction. 
 •	Develop a Random Forest model using the same predictor variables. 
 •	Split the dataset into calibration (75%) and validation (25%) samples. 
@@ -11,28 +11,27 @@ Objectives
 •	Assess variable importance. 
 •	Generate spatial prediction maps for the study area. 
 
-Data
+## Data
 •	fire_logit.csv — fire occurrence presence/absence points. 
 •	variables_fires/ — environmental raster predictor layers. 
 
-Methodology
-
-Data Preparation
+## Methodology
+### Data Preparation
 •	Imported fire occurrence data. 
 •	Converted coordinates into spatial objects. 
 •	Loaded raster predictor layers. 
 •	Extracted raster values at sampling locations. 
 
-Model Development
+### Model Development
 
-CART Model
+#### CART Model
 •	Built a classification tree using the calibration dataset. 
 •	Applied pruning to reduce overfitting. 
 •	Evaluated model performance using: 
 o	Confusion matrix 
 o	Kappa statistic 
 
-Random Forest Model
+#### Random Forest Model
 •	Built a Random Forest classifier with 500 trees. 
 •	Assessed model performance using: 
 o	ROC curve 
@@ -40,12 +39,12 @@ o	AUC
 o	Model evaluation statistics 
 •	Examined variable importance rankings. 
 
-Spatial Prediction
+#### Spatial Prediction
 •	Generated spatial prediction maps for: 
 o	CART model 
 o	Random Forest model 
 
-Main Outputs
+## Main Outputs
 •	Pruned CART model 
 •	Random Forest classifier 
 •	Confusion matrix 
@@ -56,7 +55,7 @@ Main Outputs
 •	CART prediction map 
 •	Random Forest prediction map 
 
-Skills Demonstrated
+## Skills Demonstrated
 •	Machine learning in R 
 •	Classification trees 
 •	Random Forest modelling 
